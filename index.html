@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Afrodita Spa Centar">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="queries.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+	<title>Afrodita</title>
+</head>
+<body>
+    <header>
+    <nav>
+        <div class="row">
+            <div class="dropdown">
+            <button class="dropbtn">Meni</button>
+            <div class="dropdown-content">
+                <a href="#onama">O nama</a>
+                <a href="#galerija">Galerija</a>
+                <a href="#email">Kontakt</a>
+            </div>
+            </div>
+            <a href="#" >
+                <img src="img/afrodita.png" alt="Afrodita Logo" class="logo">
+            </a>
+         <div class="navbar">
+                <a href="#onama">O NAMA</a>
+                <a href="#galerija">GALERIJA</a>
+                <a href="#email">KONTAKT</a>     
+         </div>
+        </div>
+        
+    </nav>
+    <div class="hero-text">
+			<h1>Dobro došli u svet
+            <br>
+            uživanja i relaksacije </h1>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <a class="btn btn-full" href="#email">Rezervacija!</a>
+		</div>
+        
+    </header>
+    <section class="onama" id="onama">
+        <div class="row">
+            <h2>O nama</h2>
+            <p class="text">
+                U ponudi spa centra Afrodita možete uživati u velikom izboru masaža koje će vas opustiti, osloboditi stresa i pripremiti za duge šetnje u prirodi.
+                Naši strucni terapeuti pomoći će da za sebe odaberete tretman koji će najviše prijati i koristiti Vama i Vašem zdravlju i dovesti Vas do osećaja potpunog zadovoljstva
+            </p>
+        </div>
+    </section>
+    <section class="galerija" id="galerija">
+        <ul class="massages">
+            <li>
+                <figure class="massage-photo">
+                    <a href="#img1">
+                    <img src="img/img1.jpeg" alt="slika">
+                    </a>
+                </figure>
+            </li>
+            <li>
+                <figure class="massage-photo">
+                    <a href="#img2">
+                    <img src="img/img2.jpg" alt="slika">
+                    </a>
+                </figure>
+            </li>
+            <li>
+                <figure class="massage-photo">
+                    <a href="#img3">
+                    <img src="img/img3.jpg" alt="slika">
+                    </a>
+                </figure>
+            </li>
+            <li>
+                <figure class="massage-photo">
+                    <a href="#img4">
+                    <img src="img/img4.jpg" alt="slika">
+                    </a>
+                </figure>
+            </li>
+        </ul>
+        <ul class="massages">
+            <li>
+                <figure class="massage-photo">
+                    <a href="#img5">
+                    <img src="img/img5.jpg" alt="slika">
+                    </a>
+                </figure>
+            </li>
+            <li>
+                <figure class="massage-photo">
+                    <a href="#img6">
+                    <img src="img/img6.jpg" alt="slika">
+                    </a>
+                </figure>
+            </li>
+            <li>
+                <figure class="massage-photo">
+                    <a href="#img7">
+                    <img src="img/img7.jpg" alt="slika">
+                    </a>
+                </figure>
+            </li>
+            <li>
+                <figure class="massage-photo">
+                    <a href="#img8">
+                    <img src="img/img8.jpg" alt="slika">
+                    </a>
+                </figure>
+            </li>
+        </ul>
+        
+        <a href="#_" class="lightbox" id="img1">
+            <img src="img/img1.jpeg">
+        </a>
+        <a href="#_" class="lightbox" id="img2">
+            <img src="img/img2.jpg">
+        </a>
+        <a href="#_" class="lightbox" id="img3">
+            <img src="img/img3.jpg">
+        </a>
+        <a href="#_" class="lightbox" id="img4">
+            <img src="img/img4.jpg">
+        </a>
+        <a href="#_" class="lightbox" id="img5">
+            <img src="img/img5.jpg">
+        </a>
+        <a href="#_" class="lightbox" id="img6">
+            <img src="img/img6.jpg">
+        </a>
+        <a href="#_" class="lightbox" id="img7">
+            <img src="img/img7.jpg">
+        </a>
+        <a href="#_" class="lightbox" id="img8">
+            <img src="img/img8.jpg">
+        </a>
+        
+    </section>
+    <section class="kontakt" id="kontakt">
+        <div class="form-box">
+        <div class="row">
+            <h2>Rezervišite mesto/Kontaktirajte nas</h2>
+            <form action="#" method="post" class="kontakt-forma">
+                <label>Ime</label>
+                <input type="text" name="ime" id="ime" placeholder="Vaše ime" class="name" required> 
+                <label>E-mail</label>
+                <input type="email" name="email" id="email" placeholder="Vaše email" required>
+                <label for="find-us">Kako ste culi za nas?</label>
+                <select name="find-us" id="find-us">
+                    <option value="Prijatelji" selected>Prijatelji</option>
+                    <option value="Internet">Internet</option>
+                    <option value="Oglas">Oglas</option>
+                    <option value="Drugo">Drugo</option>
+                </select>
+                <label>Pišite nam</label>
+                <textarea name="message" placeholder="Vaša poruka"></textarea>
+                <div class="dugme">
+                <button class="b1">Pošalji</button>
+                </div>
+            </form>
+        </div>
+        </div>
+    </section>
+    <footer>
+        <div class="row">
+            <ul class="footer-nav">
+                <li>
+                    <a href="#">Na pocetak</a>
+                </li>
+                <li>
+                    <a href="#onama">O nama</a>
+                </li>
+                <li>
+                    <a href="#galerija">Galerija</a>
+                </li>
+            </ul>
+            <ul class="social-icons">
+                <li><a href="https://www.facebook.com/"><i class="ion-social-facebook"></i></a></li>
+                <li><a href="https://www.twitter.com/"><i class="ion-social-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/"><i class="ion-social-instagram"></i></a></li>
+            </ul>
+        </div>
+        <div class="row">
+            <p>Copyright &copy; 2017 by Afrodita. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

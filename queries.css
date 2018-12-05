@@ -1,0 +1,223 @@
+
+
+
+/*--------------1024-1200px----------------*/
+
+@media only screen and (max-width: 1200px) {
+	.hero-text{
+		width: 70%;
+        margin-left: 3%;
+        margin-bottom: 30%;
+        
+        
+	}
+	
+    .btn, .btn-full {
+        margin-top: 50%;
+        margin-left: 5%
+    }
+    
+    
+    .navbar {
+        margin-right: 3%;
+    }
+    
+    .logo {
+        margin-left: 3%;
+    }
+    
+    nav {
+        height: 10%
+    }
+    
+    
+}
+
+/*--------------768-1023px----------------*/
+
+@media only screen and (max-width: 1023px) {
+    
+    .onama h2 {
+        margin-left: 1%;
+    }
+    nav {
+        height: 10%
+    }
+    .logo {
+        margin-top: 1.7%;
+    }
+	body {
+		font-size: 18px;
+	}
+	section {
+		padding: 60px 0;
+	}
+	.text {
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	.kontakt .row {
+		margin-left: 38%;
+	}
+	
+	.kontakt h2 {
+		margin-left: 1%;
+		text-align: center;
+	}
+	.form-box {
+		width: 85%;
+	}
+	
+    .kontakt {
+		width: 70%;
+	}
+	.social-icons,
+	.footer-nav {
+		float: none;
+		text-align: center;
+	}
+	.footer-nav {
+		margin-bottom: 10px;
+	}
+    
+    .btn, .btn-full {
+        margin-top: 3%;
+        margin-left: -5%;
+    }
+    
+    .b1 {
+        margin-left: 36%;
+    }
+}
+    
+    /*---------------481-767px----------------*/
+    
+@media only screen and (max-width: 767px) {
+    nav {
+        height: 9%;
+    }
+    .logo {
+        margin-top: 1.3%;
+    }
+    .dropdown {
+        float: right;
+        visibility: visible;
+        margin-top: 2.4%;
+		margin-right: -2%;
+    }
+    
+	body{
+		font-size: 16px;
+	}
+	section {
+		padding: 30px 0;
+	}
+	
+	.kontakt .row {
+        margin-left: 42.3%;
+		width: 85%;
+	}
+    .btn, .btn-full {
+        margin-top: 42%;
+    }
+	
+	.row,
+	.hero-text {
+        top: 10%;
+		padding: 0 2%;
+	}
+  
+    .navbar {
+		display: none;
+	}
+
+	.navbar {
+		float: left;
+		margin-top: 35px;
+		margin-left: 25px;
+	}
+	
+	.main-nav a {
+		display: block;
+	}
+
+	.main-nav a:link, 
+	.main-nav a:visited {
+		display: block;
+		border: 0;
+		padding: 10px 0;
+		font-size: 1em;
+        
+	}
+   
+    .text {
+		width: 100%;
+		margin-left: 0%;
+	}
+	h1 {
+		font-size: 1.8em;
+	}
+	h2 {
+		font-size: 1.5em;
+        margin-left: -57%;
+	}
+        
+    input[type="submit"] {
+		width: 130px;
+	}
+    .form-box {
+		margin-left: -11%;
+		position: relative;
+		width: 100%;
+		height: auto;
+		padding: 30px 20px 0 30px;
+	}
+    
+    .b1 {
+        margin-left: 27%;
+    }
+    
+ }
+
+/*----------------<=481px-----------------*/
+
+@media only screen and (max-width: 480px) {
+    nav {
+        height: 7.3%;
+    }
+    
+	section {
+		padding: 25px 0;
+	}
+	
+	.kontakt .row {
+		margin-left: 35%;
+		width: 100%;
+	}
+	
+    
+    .kontakt h2 {
+        padding: 3%;;
+    }
+    
+   
+    .b1 {
+        margin-left: 25%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .hero-text {
+        margin-top: -1%
+    }
+    .btn, .btn-full {
+        margin-top: 5%
+        margin-left: 18%;
+    }
+     .b1 {
+        
+    }
+    
+    
+}
